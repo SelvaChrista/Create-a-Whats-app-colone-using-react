@@ -1,0 +1,92 @@
+.ChatWindowContent
+{
+    width: 100%;
+    height: 100%;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+}
+.ChatWindow_Header
+{
+    display: flex;
+    height: 60px;
+    background-color: #cccccc;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:1px #AAAAAA solid;
+}
+.ChatWindow_Header_Left{
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+.UserInfo
+{
+    margin-left: 10px;
+}
+.ChatWindow_Header_Left h3, .ChatWindow_Header_Left p {
+    margin: 0;
+    padding: 0;
+    color: #444444;
+    
+}
+.ChatWindow_Header_Right
+{
+    margin-right: 10px;
+}
+.ChatWindow_Body
+{
+    background-color: #eeeeee;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    width: 100%;
+    flex:1.0;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction:column ;
+}
+.ChatMessage{
+    background-color: #ffffff;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 0px 10px 10px 10px;
+    border: 1px #bbbbbb solid;
+}
+.ChatMessage>p{
+    margin: 0;
+    padding: 0;
+}
+.ChatMessage >p:last-child{
+    text-align: right;
+    font-size: 0.8em;
+}
+.ChatMessageReciever
+{
+    margin-left: auto;
+    background-color: rgb(164, 218, 164);
+}
+.ChatWindow_footer
+{
+    height: 60px;
+    width: 100%;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+  
+}
+.ChatWindow_footer > form{
+ flex: 1.0;
+}
+.ChatWindow_footer>form >input{
+    width: calc(100% - 28px);
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ChatWindow_footer>form > button
+{
+    display: none;
+}

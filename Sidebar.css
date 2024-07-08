@@ -1,0 +1,65 @@
+.SidebarContent
+{
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    border-right: #AAAAAA 1px solid;
+}
+.Sidebar_Header
+{
+    width: 100%;
+    height: 60px;
+    background-color: #cccccc;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom:1px #AAAAAA solid;
+}
+.Sidebar_Header > .MuiAvatar-root
+{
+    margin-left: 10px;
+}
+.Sidebar_Header_Controls{
+    margin-right: 10px;
+}
+.Sidebar_Search
+{
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    padding: 10px;
+   
+}
+.Sidebar_Search_InputHolder
+{
+    width: calc(100% - 20px);
+    border: 1px #AAAAAA solid;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.Sidebar_Search_InputHolder > input
+{
+    border: 0;
+    outline: 0;
+    flex: 1.0;
+    padding-left: 10px;
+    background-color: transparent;
+}
+button
+{
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+    border: 0;
+    outline: 0;
+    margin-right: 10px;
+}
+.Sidebar_Chats{
+    overflow-y: scroll;
+    flex: 1.0;
+    border-right: 1px #AAAAAA solid;
+}

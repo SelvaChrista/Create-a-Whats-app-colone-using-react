@@ -1,0 +1,23 @@
+.RecentChat{
+    height: 70px;
+    display: flex;
+}
+.RecentChat:hover{
+    background-color: #ffffff;
+}
+.ContactNames > h3, .ContactNames > p{
+    margin: 0;
+    padding: 0;
+}
+.ContactNames >h3{
+    font-size: 1em;
+    margin-left: 10px;
+}
+.ContactNames >p{
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+.MuiAvatar-root
+{
+    margin-left: 10px;
+}
